@@ -1,0 +1,65 @@
+.main-container {
+    border: 1px solid orange;
+    width: 80rem;
+    margin: auto;
+    background-color: black;
+    /* background-image: url("https://r4.wallpaperflare.com/wallpaper/1005/822/563/star-wars-death-star-at-at-space-wallpaper-abe6bced53f1bfb9a5847bf93dac5c90.jpg"); */
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: auto;  
+    box-shadow: 10px white;
+    z-index: 1;  
+}
+
+.content {
+    opacity: 1;
+    z-index: 50;
+}
+
+.title {
+    color: white;
+    margin-left: 20px;
+}
+
+.title_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home_btn {
+    margin-right: 20px;
+}
+
+.card-image{
+    width: 500px;
+    height: 650px;
+    margin-left: 20px;
+}
+
+.image_description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_description {
+    text-align: justify;
+    margin: 10px;
+    color: white;
+
+}
+
+.character_features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.feature_box {
+    width: 150px;
+    height: 100px;
+    color: white;
+    border: 0.5px solid darkgrey;
+    box-shadow: 1px 1px darkgray;
+}
