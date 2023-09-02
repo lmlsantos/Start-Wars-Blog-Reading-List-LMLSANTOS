@@ -55,16 +55,18 @@ export const OneCharacter = () => {
                         <img src={`https://starwars-visualguide.com/assets/img/characters/${params.uid}.jpg`} className ="card-image" alt="..."/>
                                
                         <div className="text_description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Nullam at libero in libero porttitor fringilla ut eu justo. 
-                            Pellentesque consequat auctor dolor, nec vulputate ligula mattis ac. 
-                            Curabitur auctor velit nec lacus fermentum, id vehicula dui tincidunt. 
-                            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; 
+                            <p className="text_box"> 
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Nullam at libero in libero porttitor fringilla ut eu justo. 
+                                Pellentesque consequat auctor dolor, nec vulputate ligula mattis ac. 
+                                Curabitur auctor velit nec lacus fermentum, id vehicula dui tincidunt. 
+                                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; 
                                 Duis nec nunc eget risus cursus feugiat. Fusce euismod, sapien vel euismod ultrices, 
                                 felis urna ullamcorper dui, in ultricies nisl sem a sapien. Maecenas fermentum augue vel purus facilisis, 
                                 non auctor erat scelerisque. Nulla facilisi. Aenean euismod, 
                                 arcu non auctor finibus, nunc dolor posuere tortor, 
-                                sit amet placerat enim mi in lorem. Sed hendrerit dignissim suscipit. Donec ut commodo velit.   
+                                sit amet placerat enim mi in lorem. Sed hendrerit dignissim suscipit. Donec ut commodo velit.  
+                            </p> 
                         </div>
                     </div>
                     <div className="character_features">

@@ -33,7 +33,7 @@
 
 .card-image{
     width: 500px;
-    height: 650px;
+    height: 500px;
     margin-left: 20px;
 }
 
@@ -55,7 +55,7 @@
     border-radius: 5px;  
 }
 
-.character_features {
+.planet_features {
     display: flex;
     justify-content: space-around;
     align-items: center;
